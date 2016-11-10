@@ -1,3 +1,20 @@
-.conatiner {
+@import "_header";
+@import "_footer";
+
+/* faz com que todos os elementos sigam o padrão border-box */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* sobrescrevendo alguns estilos do bootstrap */
+.container {
   max-width: 960px;
 }

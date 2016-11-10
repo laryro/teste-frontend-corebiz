@@ -6,23 +6,42 @@
     <title>Teste Frontend Developer - Corebiz</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" media="screen">
   </head>
   <body>
 
     <header class="container">
-      
-      <nav class="top-bar">
-        <ul>
 
+      <nav class="top-bar clearfix">
+        <form class="search-box pull-left">
+          <input type="search" class="form-control" name="search" placeholder="Buscar">
+          <button type="button" class="btn-search" name="button">
+            <i class="fa fa-search"></i>
+            <span class="sr-only">Buscar</span>
+          </button>
+        </form>
+        <ul class="actions-menu pull-right">
+          <li><a href="#"><i class="fa fa-user fa-fw"></i> Minha conta</a></li>
+          <li><a href="#"><i class="fa fa-sign-in fa-fw"></i> Entrar</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart fa-flip-horizontal fa-fw"></i> Carrinho: <span class="amount-in-cart">0</span> itens</a></li>
         </ul>
       </nav>
-      <h1 class="logo">
+      <h1 class="logo text-center">
         <a href="index.html">
           <img src="assets/images/logo.png" alt="CoreBiz - Marketing Cognitivo & Omnichannel" title="CoreBiz - Marketing Cognitivo & Omnichannel" />
         </a>
       </h1>
-      <nav class="menu">
-
+      <nav class="main-menu">
+        <ul>
+          <li><a href="#">Camisas</a></li>
+          <li><a href="#">Camisetas</a></li>
+          <li><a href="#">Blusas</a></li>
+          <li><a href="#">Bermudas</a></li>
+          <li><a href="#">Calças</a></li>
+          <li><a href="#">Acessórios</a></li>
+          <li><a href="#">Sales</a></li>
+        </ul>
       </nav>
     </header>
 
