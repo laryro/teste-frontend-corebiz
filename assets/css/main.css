@@ -65,6 +65,22 @@ header nav > ul {
   .main-menu ul li + li {
     margin-left: 20px; }
 
+.main-banner {
+  padding: 10px 0; }
+
+.small-banners .row {
+  margin-left: -5px;
+  margin-right: -5px; }
+.small-banners div[class^="col-"] {
+  padding: 0 5px; }
+
+.featured-products {
+  margin: 20px 0; }
+  .featured-products .product {
+    text-align: center; }
+    .featured-products .product a {
+      text-decoration: none; }
+
 /* faz com que todos os elementos sigam o padr├úo border-box */
 html {
   box-sizing: border-box; }
@@ -77,6 +93,7 @@ body {
 
 /* sobrescrevendo alguns estilos do bootstrap */
 .container {
-  max-width: 960px; }
+  max-width: 960px;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

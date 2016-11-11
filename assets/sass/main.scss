@@ -1,5 +1,6 @@
 @import "_header";
 @import "_footer";
+@import "_home";
 
 /* faz com que todos os elementos sigam o padrão border-box */
 html {
@@ -17,4 +18,5 @@ body {
 /* sobrescrevendo alguns estilos do bootstrap */
 .container {
   max-width: 960px;
+  padding: 0;
 }
