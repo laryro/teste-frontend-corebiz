@@ -1,0 +1,11 @@
+
+@mixin font-size($desired-size) {
+    font-size: #{$desired-size/$base-font-size}rem;
+}
+
+
+@mixin pseudo() {
+    display: block;
+    content: '';
+    position: absolute;
+}

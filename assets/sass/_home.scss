@@ -18,10 +18,64 @@
   margin: 20px 0;
 
   .product {
+    color: #636363;
+    font-weight: bold;
     text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    &.sold-out {
+      a {
+        cursor: not-allowed;
+      }
+
+      &:before {
+        @include pseudo;
+        @include font-size(13px);
+        content: 'Indispon\00edvel';
+        top: 10px;
+        left: 25px;
+        text-transform: uppercase;
+        padding: 4px 0;
+        width: 115px;
+        height: 27px;
+        background-color: #ec2828;
+        color: #fff;
+        text-align: center;
+      }
+    }
 
     a {
+      color: #636363;
       text-decoration: none;
     }
+
+    .price, .prev-price {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
+    .prev-price {
+      color: #ababab;
+      text-decoration: line-through;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    .price {
+      color: #b53e39;
+    }
+
+    .divided-price {
+      margin-bottom: 0;
+    }
   }
+}
+
+
+.featured-products-banner {
+  padding: 20px 0;
 }
