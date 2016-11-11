@@ -1,0 +1,98 @@
+footer {
+  &.container {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #000;
+  }
+
+  h3 {
+    @include font-size(14px);
+    letter-spacing: 0.1rem;
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    a {
+      @include font-size(14px);
+      color: #000;
+      text-decoration: none;
+
+      &:focus, &:hover {
+        text-decoration: none;
+        color: #666;
+      }
+
+
+    }
+  }
+
+  .form-newsletter {
+    .form-control {
+      box-shadow: none;
+      border-radius: 0;
+      height: 34px;
+      float: left;
+    }
+
+    .btn-join-newsletter {
+      background-color: #000;
+      color: #fff;
+      border-radius: 0;
+      border: 0;
+      height: 34px;
+      padding: 0 20px;
+      float: left;
+    }
+  }
+
+  .help-links, .institutional-links {
+    li {
+      margin-bottom: 10px;
+    }
+
+    .fa {
+      padding-right: 10px;
+    }
+  }
+
+  .social-links {
+    text-align: center;
+    li {
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      color: #666666;
+      text-decoration: none;
+
+      &:hover {
+        color: #000;
+      }
+    }
+
+    .fa {
+      @include font-size(30px);
+
+    }
+  }
+
+  .payment-methods {
+    padding: 12px 0;
+    border-top: 1px dotted #aaa;
+    border-bottom: 1px dotted #aaa;
+    margin: 20px 0 0;
+  }
+
+  .copyright {
+    @include font-size(13px);
+    text-align: center;
+    margin: 10px;
+  }
+}

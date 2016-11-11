@@ -66,6 +66,65 @@ header nav > ul {
   .main-menu ul li + li {
     margin-left: 20px; }
 
+footer.container {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #000; }
+footer h3 {
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase; }
+footer ul {
+  padding: 0;
+  list-style: none; }
+  footer ul a {
+    font-size: 0.875rem;
+    color: #000;
+    text-decoration: none; }
+    footer ul a:focus, footer ul a:hover {
+      text-decoration: none;
+      color: #666; }
+footer .form-newsletter .form-control {
+  box-shadow: none;
+  border-radius: 0;
+  height: 34px;
+  float: left; }
+footer .form-newsletter .btn-join-newsletter {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  height: 34px;
+  padding: 0 20px;
+  float: left; }
+footer .help-links li, footer .institutional-links li {
+  margin-bottom: 10px; }
+footer .help-links .fa, footer .institutional-links .fa {
+  padding-right: 10px; }
+footer .social-links {
+  text-align: center; }
+  footer .social-links li {
+    display: inline-block; }
+  footer .social-links a {
+    display: block;
+    color: #666666;
+    text-decoration: none; }
+    footer .social-links a:hover {
+      color: #000; }
+  footer .social-links .fa {
+    font-size: 1.875rem; }
+footer .payment-methods {
+  padding: 12px 0;
+  border-top: 1px dotted #aaa;
+  border-bottom: 1px dotted #aaa;
+  margin: 20px 0 0; }
+footer .copyright {
+  font-size: 0.8125rem;
+  text-align: center;
+  margin: 10px; }
+
 .main-banner {
   padding: 10px 0; }
 
@@ -119,6 +178,10 @@ header nav > ul {
 
 .featured-products-banner {
   padding: 20px 0; }
+
+.instagram h2 {
+  margin-top: 5px;
+  margin-bottom: 30px; }
 
 /* faz com que todos os elementos sigam o padr├úo border-box */
 html {
